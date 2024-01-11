@@ -1,4 +1,4 @@
-### Asztali és mobil alkalmazások fejlesztése és tesztelése
+# Asztali és mobil alkalmazások fejlesztése és tesztelése
 
 ## Dolgozat II.
 
@@ -7,7 +7,7 @@ lekérdezi a következő végpontot:
 https://jsonplaceholder.typicode.com/todos
 
 
-# Feladatok:
+### Feladatok:
 * Használja a következő kliens programozói könyvtárat: https://github.com/oktat/saclient.git
 
 * Készítsen egy TodoService osztályt, amiben lekérdezi a tennivalókat a REST API-ból, majd átalakítja Java listává.
