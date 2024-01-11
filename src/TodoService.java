@@ -7,10 +7,10 @@ public class TodoService {
 
     public TodoService() {
         client = new Client();
-        getTodosFromRestAPI();
+        getTodos();
     }
 
-    public String getTodosFromRestAPI(){
+    public String getTodos(){
         String result = client.get(url);
         System.out.println(result);
         return result;
