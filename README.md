@@ -1,18 +1,17 @@
-## Getting Started
+### Asztali és mobil alkalmazások fejlesztése és tesztelése
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Dolgozat II.
 
-## Folder Structure
+Készítsen Java programot paclient néven. Egy REST API klienst kell írnia, amiben
+lekérdezi a következő végpontot:
+https://jsonplaceholder.typicode.com/todos
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+# Feladatok:
+* Használja a következő kliens programozói könyvtárat: https://github.com/oktat/saclient.git
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+* Készítsen egy TodoService osztályt, amiben lekérdezi a tennivalókat a REST API-ból, majd átalakítja Java listává.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+A forráskódban a mintának megfelelően szerepeljenek az adatai:
+https://szit.hu/int/doku.php?id=kuelker:dolgozat_koevetelmenyek#forraskodban
+A Google Classromba töltse fel megoldásként a projekt elérhetőségét.

@@ -7,7 +7,7 @@ public class TodoService {
 
     public TodoService() {
         client = new Client();
-        
+        getTodosFromRestAPI();
     }
 
     public String getTodosFromRestAPI(){
